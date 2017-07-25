@@ -1,6 +1,15 @@
 # electron-vue-boilerplate
 Simple. All we need is just like this "simple" boilerplate.
 
+# What is this another version of fucking shit '*-boilerplate'?
+Yeah I know there are too many **complex** and **DIRTY** boilerplates but you should admit that this is the awesome **super simple** boilerplate. IF YOU DON'T, BRING YOUR FUCKING FREAKY SUCKS TO ME.
+
+# Why do you insist that it is simple?
+- No fucking HMR with cumbersome develop server setting
+- Also no fucking configurations such as webpack.whatever.config.js *OMG how there you*
+
+and there are more reasons but , annoying
+
 # How to use
 It's simple too.
 ```bash
