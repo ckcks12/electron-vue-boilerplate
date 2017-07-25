@@ -10,6 +10,7 @@ npm i
 webpack
 electron .
 ```
+I hope you use `yarn` instead of the shit `npm`
 
 # Notice
 `import` is `require().default`
