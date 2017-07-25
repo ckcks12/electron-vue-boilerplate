@@ -1,6 +1,6 @@
 {
   "name": "electron-vue-boilerplate",
-  "version": "0.0.2",
+  "version": "0.1.2",
   "description": "boilerplate of electron for vue.js",
   "main": "back/main.js",
   "repository": "https://github.com/ckcks12/electron-vue-boilerplate",
