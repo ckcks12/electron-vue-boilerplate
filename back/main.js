@@ -5,7 +5,10 @@ const url = require('url')
 let mainWindow = null
 
 function createMainWindow() {
-	mainWindow = new electron.BrowserWindow({width: 800, height: 800})
+	mainWindow = new electron.BrowserWindow({
+		width: 800,
+		height: 800
+	})
 
 	mainWindow.loadURL(url.format({
 		pathname: path.join(__dirname, '../index.html'),
@@ -23,13 +26,13 @@ electron.app.on('ready', () => {
 })
 
 electron.app.on('window-all-closed', () => {
-	if( process.platform !== 'darwin' ) {
+	if (process.platform !== 'darwin') {
 		electron.app.quit()
 	}
 })
 
 electron.app.on('activate', () => {
-	if( mainWindow === null ) {
+	if (mainWindow === null) {
 		createMainWindow()
 	}
 })
